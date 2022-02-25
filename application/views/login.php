@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>LOGIN</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -164,16 +164,16 @@ a{
 <body>
     <div class="login-reg-panel">
         <div class="login-info-box">
-            <h2>Jika anda sudah mempunyai akun</h2>
-            <p>Silahkan anda login</p>
-            <label id="label-register" for="log-reg-show">Login</label>
+            <h2>Jika anda sudah mempunyai akun.</h2>
+            <p>Silahkan anda login!</p>
+            <label id="label-register" for="log-reg-show">LOGIN</label>
             <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
         </div>
                             
         <div class="register-info-box">
-            <h2>Jika anda belum memiliki akun</h2>
-            <p>Silahkan Lakukan pendaftaran terlebih dahulu</p>
-            <label id="label-login" for="log-login-show">Register</label>
+            <h2>Jika anda belum memiliki akun.</h2>
+            <p>Silahkan Lakukan pendaftaran terlebih dahulu!</p>
+            <label id="label-login" for="log-login-show">REGISTER</label>
             <input type="radio" name="active-log-panel" id="log-login-show">
         </div>
                             
@@ -182,7 +182,7 @@ a{
                 <p><?=$this->session->flashdata('msg');?></p>
                     <form action="<?=site_url('Auth/login')?>" method="post">
                         <input type="text" name="email" placeholder="Email" required="">
-                        <input type="password" name="no" placeholder="No. Telp." required="">
+                        <input type="password" name="no" placeholder="Nomor Telepon" required="">
                         <input type="submit" name="login" value="Login" >
                     </form>
             </div>
@@ -190,7 +190,7 @@ a{
                 <form action="<?=site_url('Auth/daftar')?>" method="post">
                     <input type="text" name="nama" placeholder="Nama Lengkap" required="">
                     <input type="text" name="mail" placeholder="Email" required="">
-                    <input type="password" name="telp" placeholder="No Telp" required="">
+                    <input type="password" name="telp" placeholder="Nomor Telepon" required="">
                     <input type="hidden" name="akses" value="User">
                     <input type="submit" name="daftar" value="Register">
                 </form>

@@ -68,8 +68,8 @@
                     <div class="col-md-12">
                         <div class="booking-rooms-tab">
                             <ul class="nav" role="tablist">
-                                <li class="active"><a href="#done" data-toggle="tab"><span class="tab-border">1</span><span>Konfirmasi</span></a></li>
-                                <li><a href="#payment" data-toggle="tab"><span class="tab-border">2</span><span>Status Pemesanan</span></a></li>
+                                <li class="active"><a href="#done" data-toggle="tab"><span class="tab-border">1</span><span>KONFIRMASI</span></a></li>
+                                <li><a href="#payment" data-toggle="tab"><span class="tab-border">2</span><span>STATUS PEMESANAN</span></a></li>
                             </ul>
                         </div>
                         <div class="service-tab-desc text-left mt-60">
@@ -107,7 +107,7 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="payment">
                                     <div class="payment-info">
-                                        <h1>Status Pemesanan Anda</h1>
+                                        <h1>Status Pemesanan Anda </h1>
                                         <h3>"<?=$trans->status?>"</h3>
                                     </div>        
                                 </div>

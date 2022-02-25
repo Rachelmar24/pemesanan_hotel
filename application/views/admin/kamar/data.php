@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Kamar</title>
+    <title>Data Hotel Hebat</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <link rel="stylesheet" href="<?= base_url('assets/vendors/bootstrap/dist/css/bootstrap.min.css');?>">
-    <link rel="icon" href="<?=base_url()?>/images/logo.png">
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css');?>">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
@@ -21,7 +20,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <p class="navbar-brand">HOTEL HEBAT</p>
+                <p class="navbar-brand">Hotel Hebat</p>
                  <p class="navbar-brand hidden">C</p>
             </div>
 
@@ -29,13 +28,13 @@
                 <ul class="nav navbar-nav">
                    <ul class="nav navbar-nav">
                     <li>
-                        <a href="<?=site_url('Welcome/index')?>"> <i class="menu-icon fa fa-dashboard"></i>Resepsionis</a>
+                        <a href="<?=site_url('Welcome/index')?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard</a>
                     </li>
-                    <h3 class="menu-title">Resepsionis</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">Admin</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children active dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bars"></i>Data</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bars"></i>Admin</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-bed"></i><a href="<?=site_url('Kamar/read')?>">Kamar </a></li>
+                            <li><i class="fa fa-bed"></i><a href="<?=site_url('Kamar/read')?>">Fasilitas Kamar</a></li>
                             <li><i class="fa fa-address-card"></i><a href="<?=site_url('Pengguna/read')?>">Pengguna</a></li>
                         </ul>
                     </li>
@@ -126,7 +125,7 @@
                 <div class="page-header float-right">
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
-                            <li><a href="<?=site_url('Welcome/index')?>">ADMIN</a></li>
+                            <li><a href="<?=site_url('Welcome/index')?>">Resepsionis</a></li>
                         </ol>
                     </div>
                 </div>

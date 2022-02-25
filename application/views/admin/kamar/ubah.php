@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav">
                    <ul class="nav navbar-nav">
                     <li>
-                        <a href="<?=site_url('Welcome/index')?>"> <i class="menu-icon fa fa-dashboard"></i>ADMIN </a>
+                        <a href="<?=site_url('Welcome/index')?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <h3 class="menu-title">Master</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children active dropdown">

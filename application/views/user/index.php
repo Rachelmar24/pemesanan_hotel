@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Selamat Datang</title>
+    <title>Welcome </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@
 </head>
     <style type="text/css">
         .header-section{
-          background: url('<?= base_url("assets/images/2.jpg");?>')no-repeat scroll center center;
+          background: url('<?= base_url("assets/images/background3.jpg");?>')no-repeat scroll center center;
           background-size: cover;
           background-attachment: fixed;
         }
@@ -38,7 +38,7 @@
           position: relative
         }
         .footer{
-          background: url('<?= base_url("assets/images/back.jpg");?>')no-repeat scroll center center;
+          background: url('<?= base_url("assets/images/background3.jpg");?>')no-repeat scroll center center;
           background-size: cover;
           background-attachment: fixed;
         }
@@ -132,7 +132,7 @@
                             <div class="welcome-text">
                                 <p style="color: #fff; font-size: 23px;">Halo<b style="color: #fff; font-size: 23px; font-weight: bold;">  <?= $this->session->userdata('nama');?></b></p>
                                 <h2>
-                                <span>SELAMAT DATANG DI</span>
+                                <span>WELOCOME TO</span>
                                 </h2>
                                 <h1 class="cd-headline clip">
                                 <span class="coloring">HOTEL HEBAT</span>
@@ -176,7 +176,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title mb-75">
-                            <h2>Jenis <span>Kamar</span></h2>
+                            <h2>JENIS <span>KAMAR</span></h2>
                             <p>Kami menyediakan berbagai jenis kamar, baik untuk sendiri, pasangan, maupun keluarga</p>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                                             <h3><a href="#"><?=$kmr->jenis?></a></h3>
                                         </div>
                                         <div class="room-rent">
-                                            <h6>Rp <?=$kmr->harga?> / <label>Malam</label></h6>
+                                            <h6>Rp. <?=$kmr->harga?> / <label>Malam</label></h6>
                                         </div>
                                         <div class="room-book">
                                             <a href="<?=site_url('Auth/booking/'.$kmr->id)?>">Pesan</a>
@@ -227,8 +227,10 @@
         </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-8 col-xs-12">
+                    <div class="col-md-16 col-sm-16 col-xs-16">
+                        <P></p>
                      <P> Rachel Marviani</p>
+                     <P></p>
                     </div>
                 </div>
             </div>

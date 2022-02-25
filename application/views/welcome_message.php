@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	p.footer {
-		text-align: right;
+		text-align: z;
 		font-size: 11px;
 		border-top: 1px solid #D0D0D0;
 		line-height: 32px;

@@ -18,25 +18,25 @@ NOTE: This is color stylesheet of Color Scheme.
 /** selection **/
 
 *::-moz-selection {
-    background: #50C1F0;
+    background: #8050f0;
     color: #fff;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: #50C1F0;
+    background: #8050f0;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #50C1F0;
+    background: #8050f0;
     color: #fff;
     text-shadow: none;
 }
 
 .news-desc .read-more > a {
-    background: #3ac4fa;
+    background: #8050f0;
 }
 
 

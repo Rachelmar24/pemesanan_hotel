@@ -61,8 +61,8 @@
                     <div class="col-md-12">
                         <div class="booking-rooms-tab">
                             <ul class="nav" role="tablist">
-                                <li  class="active"><a href="#booking" data-toggle="tab"><span class="tab-border">1</span><span>Info Pemesanan</span></a></li>
-                                <li><a href="#personal" data-toggle="tab"><span class="tab-border">2</span><span>Data Pribadi</span></a></li>
+                                <li  class="active"><a href="#booking" data-toggle="tab"><span class="tab-border">1</span><span>INFORMASI PEMESANAN</span></a></li>
+                                <li><a href="#personal" data-toggle="tab"><span class="tab-border">2</span><span>DATA PRIBADI</span></a></li>
                             </ul>
                         </div>
                         <div class="service-tab-desc text-left mt-60">
@@ -135,7 +135,7 @@
 
                                                      <div class="single-form-part">
                                                         <div class="name mb-15">
-                                                            <input type="tell" placeholder="No Telp." value="<?=$this->session->userdata('no')?>" readonly="" name="no">
+                                                            <input type="tell" placeholder="Nomor Telepon" value="<?=$this->session->userdata('no')?>" readonly="" name="no">
                                                         </div>
                                                     </div>
                                                 </div>
