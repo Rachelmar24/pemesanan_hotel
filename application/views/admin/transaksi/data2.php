@@ -146,14 +146,14 @@
                                 <table class="table">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">#</th>
+                                            <th scope="col">No</th>
                                             <th scope="col">Check-in</th>
                                             <th scope="col">Check-out</th>
                                             <th scope="col">Jumlah Kamar</th>
                                             <th scope="col">Tipe Kamar</th>
                                             <th scope="col">Nama</th>
                                             <th scope="col">Email</th>
-                                            <th scope="col">No. Telp</th>
+                                            <th scope="col">Nomor Telepon</th>
                                             <th scope="col">Status</th>
                                         </tr>
                                     </thead>

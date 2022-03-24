@@ -49,7 +49,7 @@ class Auth extends CI_Controller {
 	    if ($this->input->post('daftar')) {
 			$this->Auth_model->register();
 			if($this->db->affected_rows() > 0){
-        		$this->session->set_flashdata('msg', '<p style="color:green">Berhasil mendaftar</p>');
+        		$this->session->set_flashdata('msg', '<p style="color:green">Berhasil mendaftar!</p>');
         	}else{
         		$this->session->set_flashdata('msg', '<p style="color:red;">Gagal mendaftar!</p>');
         	}

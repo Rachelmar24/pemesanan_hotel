@@ -161,7 +161,7 @@
                                 <div id="pay-invoice">
                                     <div class="card-body">
                                         <div class="card-title">
-                                            <h3 class="text-center">Ubah Data Pengguna <?= $detail->nama ?></h3>
+                                            <h3 class="text-center">Mengubah Data Pengguna <?= $detail->nama ?></h3>
                                         </div>
                                         <hr>
                                         <form action="<?=site_url('Pengguna/update/'.$detail->id)?>" method="post" novalidate="novalidate" enctype="multipart/form-data">
@@ -180,7 +180,7 @@
                                                 <div class="row">
                                                     <div class="col-4">
                                                         <div class="form-group">
-                                                            <label for="cc-exp" class="control-label mb-1">No. Telp</label>
+                                                            <label for="cc-exp" class="control-label mb-1">Nomor Telepon</label>
                                                             <input id="cc-exp" name="no" type="tel" class="form-control " value="<?= $detail->no ?>" >
                                                         </div>
                                                     </div>
@@ -193,7 +193,7 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-4">
+                                                    <div class="col-10">
                                                         <label for="x_card_code" class="control-label mb-1">File Gambar</label>
                                                         <div class="input-group">
                                                             <input id="x_card_code" name="gambar" type="file" class="form-control" >

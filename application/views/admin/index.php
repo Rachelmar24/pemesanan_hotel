@@ -22,7 +22,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <p class="navbar-brand"> HOTEL HEBAT </p>
-                 <p class="navbar-brand hidden">C</p>
+                 <p class="navbar-brand hidden"></p>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -31,7 +31,7 @@
                     <li>
                         <a href="<?=site_url('Welcome/index')?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
-                    <h3 class="menu-title">Master</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">Dashboard</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children active dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bars"></i>Admin</a>
                         <ul class="sub-menu children dropdown-menu">

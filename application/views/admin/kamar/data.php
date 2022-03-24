@@ -20,7 +20,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <p class="navbar-brand">Hotel Hebat</p>
+                <p class="navbar-brand">HOTEL HEBAT</p>
                  <p class="navbar-brand hidden">C</p>
             </div>
 
@@ -149,12 +149,12 @@
                                 <table class="table">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">#</th>
+                                            <th scope="col">No</th>
                                             <th scope="col">Gambar</th>
                                             <th scope="col">Jenis Kamar</th>
                                             <th scope="col">Harga</th>
                                             <th scope="col">Jumlah</th>
-                                            <th scope="col">Opsi</th>
+                                            <th scope="col">Option</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -176,7 +176,7 @@
                                             <td><?=  $tampil ?></td>
                                             <td>
                                                 <a class="btn btn-success" href="<?=site_url('Kamar/edit/'.$kmr->id)?>">Edit</a>
-                                                <a class="btn btn-danger" href="<?=site_url('Kamar/delete/'.$kmr->id)?>" onclick="return confirm('Are U Sure?')">Delete</a>
+                                                <a class="btn btn-danger" href="<?=site_url('Kamar/delete/'.$kmr->id)?>" onclick="return confirm('Are You Sure?')">Delete</a>
                                             </td>
                                             <!-- <td>
                                                 <?php 

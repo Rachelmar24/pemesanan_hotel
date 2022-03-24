@@ -194,7 +194,7 @@
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="form-group">
-                                                            <label for="cc-exp" class="control-label mb-1">No. Telp</label>
+                                                            <label for="cc-exp" class="control-label mb-1">Nomor Telepon</label>
                                                             <input id="cc-exp" name="no" type="tel" class="form-control">
                                                         </div>
                                                     </div>
@@ -227,7 +227,7 @@
                                                     </div>
                                                     <div class="col-4">
                                                         <div class="form-group">
-                                                            <label for="cc-exp" class="control-label mb-1"></label>
+                                                            <label for="cc-exp" class="control-label mb-1">Jumlah Kamar</label>
                                                             <input id="cc-exp" name="jumlah" type="text" class="form-control">
                                                         </div>
                                                     </div>

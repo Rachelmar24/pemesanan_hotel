@@ -67,7 +67,7 @@
                     <div class="container">
                         <div class="mgea-full-width">
                             <div class="row">
-                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                <div class="col-md-1 col-sm-2 col-xs-12">
                                     <div class="logo mt-15">
                                         <a href="index.html"><img src="<?=base_url()?>" alt=""></a>
                                     </div>
@@ -101,11 +101,10 @@
                  <!-- Mobile menu start -->
                 <div class="mobile-menu-area hidden-lg hidden-md">
                     <div class="container">
-                        <div class="col-md-12">
+                        <div class="col-md-1">
                             <nav id="dropdown">
                             <ul>
                                 <li><a href="#">HOME</a></li>
-                                <li><a href="#">KAMAR DAN FASILITAS</a></li>
                                 <li><a href="<?= site_url('Auth/logout')?>">LOGOUT</a></li>
                             </ul>
                         </nav>
@@ -118,8 +117,8 @@
             <div class="welcome-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-5">
-                            <div class="booking-box">
+                        <div class="col-md-1 col-sm-5">
+                            <div class="booking-title">
                                 <div class="booking-title">
                                      <br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
                                 </div>
@@ -130,10 +129,10 @@
                         </div>
                         <div class="col-md-8 col-sm-7">
                             <div class="welcome-text">
-                                <p style="color: #fff; font-size: 23px;">Halo<b style="color: #fff; font-size: 23px; font-weight: bold;">  <?= $this->session->userdata('nama');?></b></p>
-                                <h2>
-                                <span>WELOCOME TO</span>
-                                </h2>
+                                <b style="color: #fff; font-size: 25px; font-weight: ">Halo |  <b style="color: #fff; font-size: 25px; font-weight: ">  <?= $this->session->userdata('nama');?></b></p>
+                                <h1 class="cd-headline clip">
+                                <span>WELCOME TO</span>
+                                </h1>
                                 <h1 class="cd-headline clip">
                                 <span class="coloring">HOTEL HEBAT</span>
                                     <span class="cd-words-wrapper coloring">
@@ -176,7 +175,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title mb-75">
-                            <h2>JENIS <span>KAMAR</span></h2>
+                            <h2> <span>JENIS KAMAR</span></h2>
                             <p>Kami menyediakan berbagai jenis kamar, baik untuk sendiri, pasangan, maupun keluarga</p>
                         </div>
                     </div>

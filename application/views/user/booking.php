@@ -51,14 +51,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="section-title mb-80 text-center">
-                            <h2>Pemesanan <span>Kamar</span></h2>
+                        <div class="section-title mb-90 text-center">
+                            <h2>Pemesanan Kamar</h2>
                            <!--  <p>Isi data dengan benar agar pemesanan dapat dilakukan</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-17">
                         <div class="booking-rooms-tab">
                             <ul class="nav" role="tablist">
                                 <li  class="active"><a href="#booking" data-toggle="tab"><span class="tab-border">1</span><span>INFORMASI PEMESANAN</span></a></li>
@@ -77,9 +77,12 @@
                                             <div class="single-room-details pl-50">
                                                 <h3 class="s_room_title"><?=$detail->jenis?></h3>
                                                 <div class="room_price"><br>
-                                                    <h4>Harga</h4><br>
-                                                    <h5><?=$detail->harga?> <span>/ malam</span></h5>
-                                                    <p> Pilih hotel terbaik mu,masukan Jumlah kamar,Tanggal Check-out dan Check in,Alihkan ke Data pribadi lalu pencet Pesan sekarang. </p>
+                                                    <h4>Harga :</h4><br>
+                                                    <h4><?=$detail->harga?> <span>/ Malam.</span></h4>
+                                                    <p> Pilih hotel terbaik mu :
+                                                    <p>-> Masukan Jumlah Kamar
+                                                    <p>-> Lalu pilih Tanggal Check-out dan Check-in 
+                                                    <p>-> Alihkan ke Data Pribadi dan pencet Pesan Sekarang. </p>
                                                 </div>
                                             </div>
                                         </div>

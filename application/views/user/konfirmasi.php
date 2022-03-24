@@ -107,7 +107,7 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="payment">
                                     <div class="payment-info">
-                                        <h1>Status Pemesanan Anda </h1>
+                                        <h1>STATUS PEMESANAN ANDA ! </h1>
                                         <h3>"<?=$trans->status?>"</h3>
                                     </div>        
                                 </div>

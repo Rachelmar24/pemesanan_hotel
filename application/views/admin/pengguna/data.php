@@ -147,13 +147,13 @@
                                 <table class="table">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">#</th>
+                                            <th scope="col">No</th>
                                             <th scope="col">Gambar</th>
                                             <th scope="col">Nama Lengkap</th>
                                             <th scope="col">Email</th>
-                                            <th scope="col">No. Telp</th>
+                                            <th scope="col">Nomor Telepon</th>
                                             <th scope="col">Akses</th>
-                                            <th scope="col">Opsi</th>
+                                            <th scope="col">Option</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -171,7 +171,7 @@
                                             <td><?=$user->akses ?></td>
                                             <td>
                                                 <a class="btn btn-success" href="<?=site_url('Pengguna/edit/'.$user->id)?>">Edit</a>
-                                                <a class="btn btn-danger" href="<?=site_url('Pengguna/delete/'.$user->id)?>" onclick="return confirm('Are U Sure?')">Delete</a>
+                                                <a class="btn btn-danger" href="<?=site_url('Pengguna/delete/'.$user->id)?>" onclick="return confirm('Are You Sure?')">Delete</a>
                                             </td>
                                             <!-- <td>
                                                 <?php 
@@ -222,7 +222,7 @@
                                 <div class="row">
                                     <div class="col-4">
                                         <div class="form-group">
-                                            <label for="cc-exp" class="control-label mb-1">No. Telp</label>
+                                            <label for="cc-exp" class="control-label mb-1">Nomor Telepon</label>
                                             <input id="cc-exp" name="no" type="tel" class="form-control "  >
                                         </div>
                                     </div>
@@ -243,9 +243,13 @@
                                     </div>
                                 </div>
                                 <div>
+                                <div>
+                                <div>
+                                <div>
                                     <input name="simpan" id="payment-button" type="submit" class="btn btn-lg btn-info btn-block" value="Simpan">
                                 </div>
-                                    
+                                </div>
+                                </div>
                         </div>
                     </div>
                 </form>
